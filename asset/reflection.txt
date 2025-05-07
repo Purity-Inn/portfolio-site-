@@ -1,0 +1,28 @@
+What I Learned
+How to build a fully responsive website from scratch using HTML, CSS, and JavaScript
+
+How to organize and structure a personal portfolio to showcase projects and skills
+
+How to use Git and GitHub for version control and collaboration
+
+How to deploy a site using GitHub Pages and fix path issues
+
+Basic design principles and how to improve layout using wireframes
+
+Challenges I Faced
+Styling the website for different screen sizes (responsiveness)
+
+Uploading and linking project screenshots and PDFs correctly
+
+Getting the correct file paths and image links to work after deployment
+
+Figuring out how GitHub Pages works and waiting for deployment delays
+
+ What I'd Improve With More Time
+Add animations and better transitions using CSS or JavaScript
+
+Build the form with backend integration (Formspree or PHP)
+
+Improve visual consistency and use more advanced layout tools like Flexbox/Grid
+
+Add a blog section or dark/light mode toggle
