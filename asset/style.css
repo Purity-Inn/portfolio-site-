@@ -1,0 +1,328 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+button {
+    background-color: #FFA500;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #111;
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: ;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #FFA500;
+    text-decoration: none;
+}
+
+.about, .skills {
+    padding: 30px;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.progress {
+    background: #555;
+    border-radius: 5px;
+    height: 20px;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    background: #FFA500;
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.5s;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+nav.active {
+    display: block;       /* Show when active */
+}
+
+#menu-toggle {
+    cursor: pointer;      /* Change cursor to pointer */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #333
+}
+
+#contact {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #111; /* Slightly lighter black for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 215, 0, 0.2); /* Golden shadow */
+    text-align: center;
+}
+
+#contact h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #FFD700; /* Golden text */
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #FFD700; /* Golden text */
+}
+
+.contact-info a {
+    color: #FFD700; /* Golden links */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000; /* black background */
+    color: #fff; /* white text */
+  }
+  
+  .about-me {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #111; /* slightly lighter black for the section */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); /* white shadow tint */
+  }
+  
+  .profile-pic {
+    flex: 1 1 250px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-pic img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #007bff; /* blue border */
+  }
+  
+  .about-content {
+    flex: 2 1 500px;
+    padding: 20px;
+  }
+  
+  .about-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #007bff; /* blue heading */
+  }
+  
+  .about-content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #fff; /* ensure paragraph text is white */
+  }
+  .cv-btn {
+    padding: 10px 20px;
+    background-color: #FFD700;;
+    color: #000;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cv-btn:hover {
+    background-color: #FFD700;
+  }
+  #projects {
+    padding: 40px;
+    background-color:#000 ;
+  }
+  
+  #projects h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #000;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .project h3 {
+    margin-top: 0;
+  }
+  
+  .project a {
+    color: #FFD700;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  #certifications {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #certifications h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #444;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  .cert-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cert {
+    background-color: #111;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .cert h3 {
+    color: #FFD700;
+    margin-bottom: 10px;
+  }
+  
+  .linked-note {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
+  .linked-note a {
+    color: #FFD700;
+    text-decoration: underline;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111; /* Optional background color */
+    color: #FFD700; /* Golden text */
+}
+
+.text-content {
+    max-width: 60%;
+}
+
+.text-content h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: #FFD700; /* Golden text */
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #FFD700; /* Golden text */
+}
+
+.image-content {
+    max-width: 30%;
+    text-align: right;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #FFD700; /* Golden border */
+    object-fit: cover;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('../asset/profile3.jpg') no-repeat center center fixed; /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the entire background */
+  color: #FFD700; /* Golden text for contrast */
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  z-index: -1; /* Ensures the overlay is behind the content */
+}
